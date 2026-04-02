@@ -12,10 +12,18 @@ def add(a,b):
 def subtraction(a,b):
     try:
         result1=a-b
-        logging.info(f"The sum is {result1}")
-        return result
+        logging.info(f"The difference is {result1}")
+        return result1
     except Exception as e:
         logging.error(f"Error:{e}")
         return None
 
+def multiplication(a,b):
+    try:
+        result2=a*b
+        logging.info(f"The difference is {result2}")
+        return result2
+    except Exception as e:
+        logging.error(f"Error:{e}")
+        return None
 
